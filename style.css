@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --btn-blue: #4D55BC;
+
+
+}
+
+.btn-blue {
+    background-color: var(--btn-blue);
+    color: white;
+}
+
+.Hero {
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("assets/bg.png");
+    background-position-x: center;
+}
+
+.text-success {
+    color: #36C2CF !important;
+}
+
+.form-control {
+    height: 50px;
+    border: none;
+    border-radius: 0;
+}
+
+span.input-group-text {
+    background-color: #FE721C;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+#basic-addon2 {
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+.input-group {
+    width: 75%;
+}
+
+.order-end {
+    order: 1;
+}
+
+/* mediaquerre */
+@media (min-width: 1200px) {
+    .Hero {
+        height: 100vh;
+        background-size: contain;
+        background-position-x: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .order-end {
+        order: -1;
+    }
+
+    .Hero {
+        background-size: cover;
+    }
+
+    .order-end img {
+        width: 80%;
+        text-align: center;
+    }
+
+
+}
