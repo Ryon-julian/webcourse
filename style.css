@@ -31,6 +31,33 @@ body {
     color: #7186A0;
 }
 
+ul {
+    list-style: none;
+}
+
+footer.footer {
+    height: 350px;
+    background-color: #132B50;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .Category h1 {
     font-size: large;
     color: #7186A0;
@@ -56,7 +83,7 @@ body {
 }
 
 .form-control {
-    height: 50px;
+    height: 70px;
     border: none;
     border-radius: 0;
 }
@@ -70,6 +97,7 @@ span.input-group-text {
 }
 
 #basic-addon2 {
+    height: 25%;
     padding-right: 28px;
     padding-left: 28px;
 }
