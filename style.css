@@ -16,8 +16,13 @@ body {
 }
 
 .thumb-videos {
-    height: 100vh;
+    height: 300px;
     width: 270px;
+}
+
+.text-thumb {
+    color: #132B50;
+    font-size: small;
 }
 
 .new-classes h1 {
@@ -25,6 +30,18 @@ body {
     font-size: large;
     color: #7186A0;
 }
+
+.Category h1 {
+    font-size: large;
+    color: #7186A0;
+
+}
+
+.caption {
+    font-size: smaller;
+    color: #7186A0;
+}
+
 
 .Hero {
     height: 100vh;
