@@ -31,6 +31,10 @@ body {
     color: #7186A0;
 }
 
+a {
+    color: #53589D !important;
+}
+
 ul {
     list-style: none;
 }
@@ -97,7 +101,21 @@ span.input-group-text {
     color: white;
 }
 
+#email-help {
+    background-color: #FE721C;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    color: white;
+}
+
 #basic-addon2 {
+    height: 25%;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+#email {
     height: 25%;
     padding-right: 28px;
     padding-left: 28px;
